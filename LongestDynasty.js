@@ -20,7 +20,15 @@
 
 //     If dynastyReign is empty return "No Data"
 
-const dynastyReign = [{ "San Dynasty": "MXLI" }, { "Viloria Dynasty": "MCCCIIII" }, { "Tan Dynasty": "MCCCXCVIII" }, { "Bon Dynasty": "MCDXLV" }, { "Maiko Dynasty": "MDCLXIV" }, { "Paul Dynasty": "MCMXLIX" }, { "Andre Dynasty": "MMMXICX" }];
+const dynastyReign = [
+    { "San Dynasty": "MXLI" },
+    { "Viloria Dynasty": "MCCCIIII" },
+    { "Tan Dynasty": "MCCCXCVIII" },
+    { "Bon Dynasty": "MCDXLV" },
+    { "Maiko Dynasty": "MDCLXIV" },
+    { "Paul Dynasty": "MCMXLIX" },
+    { "Andre Dynasty": "MMMXICX" }
+];
 
 function convertYear(year) {
     const romanNumerals = {
